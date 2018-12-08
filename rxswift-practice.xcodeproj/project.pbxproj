@@ -12,6 +12,7 @@
 		A1A0D82621BC339D0098168C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A0D82421BC339D0098168C /* Main.storyboard */; };
 		A1A0D82821BC339F0098168C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A0D82721BC339F0098168C /* Assets.xcassets */; };
 		A1A0D82B21BC339F0098168C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A0D82921BC339F0098168C /* LaunchScreen.storyboard */; };
+		A1A0D83321BC458A0098168C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0D83221BC458A0098168C /* Tests.swift */; };
 		BC8EB9DFF2C7D4880784C53D /* libPods-rxswift-practice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 695F31A9FEB1A4EC83823826 /* libPods-rxswift-practice.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A1A0D82721BC339F0098168C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A0D82A21BC339F0098168C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A0D82C21BC339F0098168C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A0D83221BC458A0098168C /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		F23CA7B90338AA2C95DAF63F /* Pods-rxswift-practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rxswift-practice/Pods-rxswift-practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				A1A0D82721BC339F0098168C /* Assets.xcassets */,
 				A1A0D82921BC339F0098168C /* LaunchScreen.storyboard */,
 				A1A0D82C21BC339F0098168C /* Info.plist */,
+				A1A0D83221BC458A0098168C /* Tests.swift */,
 			);
 			path = "rxswift-practice";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A0D82321BC339D0098168C /* ViewController.swift in Sources */,
+				A1A0D83321BC458A0098168C /* Tests.swift in Sources */,
 				A1A0D82121BC339D0098168C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
